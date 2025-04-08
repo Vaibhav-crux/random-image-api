@@ -1,0 +1,82 @@
+type: collection.insomnia.rest/5.0
+name: cat image
+meta:
+  id: wrk_6e22320620fd40c88cfc6a6ae117df9e
+  created: 1744108671193
+  modified: 1744108671193
+collection:
+  - url: "{{local}}/uuid"
+    name: Generate uuid API
+    meta:
+      id: req_c79a12005e46406b8b9ac38c3017db22
+      created: 1744108678282
+      modified: 1744132116696
+      isPrivate: false
+      sortKey: -1744108678282
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{local}}/async-uuid"
+    name: Generate asunc-uuid API
+    meta:
+      id: req_9ca305a4626942988bb79319b0efd1f2
+      created: 1744108747353
+      modified: 1744132111689
+      isPrivate: false
+      sortKey: -1744108747353
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{local}}/cat"
+    name: Generate cat image API
+    meta:
+      id: req_a4d2e7e3992647a48cd3779cb4dfd901
+      created: 1744108840532
+      modified: 1744132105549
+      isPrivate: false
+      sortKey: -1744108840532
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_386b1370b1c1bd1710170ab36dc38fc3bc9d07ed
+    created: 1744108671211
+    modified: 1744108671211
+environments:
+  name: Base Environment
+  meta:
+    id: env_386b1370b1c1bd1710170ab36dc38fc3bc9d07ed
+    created: 1744108671200
+    modified: 1744132093519
+    isPrivate: false
+  data:
+    local: http://localhost:8000/v1
