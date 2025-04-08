@@ -88,10 +88,12 @@ vaibhav-tiwari-manufac-fast-api/
    - Edit `/.env`:
      ```
      CAT_API_URL=https://cataas.com/cat
+     PORT=8000
      ```
    - Edit `frontend/.env`:
      ```
      API_BASE_URL=http://localhost:8000/v1
+     PORT=8501
      ```
 
 3. **Build and Run**:
