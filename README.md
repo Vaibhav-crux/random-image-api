@@ -1,4 +1,4 @@
-# Manufac Analytics
+# Fetch Random Cat Images
 
 A project featuring a FastAPI backend with UUID and cat image APIs, paired with a Streamlit frontend for interactive testing.
 
